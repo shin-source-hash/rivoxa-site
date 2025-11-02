@@ -1,0 +1,14 @@
+:root{
+  --bg:#000;
+  --accent:#f5b400;
+  --text:#fff;
+  font-family:Inter,system-ui;
+}
+body{margin:0;background:var(--bg);color:var(--text);}
+.container{max-width:1100px;margin:auto;padding:20px;}
+header{background:#000;padding:10px 0;position:sticky;top:0;}
+nav a{color:var(--text);margin:0 10px;text-decoration:none;}
+.hero{background:#111;padding:80px 20px;text-align:center;}
+.hero h1{color:var(--accent);}
+.section{padding:60px 20px;}
+footer{text-align:center;padding:20px;color:#888;}
